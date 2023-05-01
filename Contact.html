@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Contact Me </title>
+  </head>
+  
+  <body style="background-color:lavenderblush;">
+      
+     <h2> Contact Me Form </h2>
+     <hr> 
+
+     <form action="/Submit.html"><b></b>
+         <b> First Name: &nbsp; <input type="text" placeholder="Enter Your First Name"> </b>
+         <b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Middle Name: &nbsp; <input type="text" placeholder="Enter Your Middle Name"> </b>
+         <b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Last Name: &nbsp; <input type="text" placeholder="Enter Your Last Name"> </b>
+         <br> <br>
+         <b> E-mail ID: &nbsp; <input type="text" placeholder="Enter Your E-mail ID"> </b>
+         <br> <br>
+         <b> Contact Number: &nbsp; <input type="text" placeholder="Enter Your Contact Number"> </b>
+         <br> <br> 
+         <b> Reason For Contacting: </b>
+         <label for="01">
+             <input type="radio" value="Personal Reason" name="Reason" id="01"> Personal Reason
+         </label>
+         <label for="02">
+            <input type="radio" value="Personal Reason" name="Reason" id="02"> Professional Reason
+         </label>
+         <br> <br> 
+         <b> Select Your Relation: </b>
+         <select name="city">
+             <option value="Family"> Family </option>
+             <option value="Friend"> Friend </option>
+             <option value="Teacher"> Teacher </option>
+             <option value="HR"> HR </option>
+             <option value="Other"> Other </option>
+         </select>
+         <br> <br>
+         <b> What's This About: </b>
+         &nbsp; <textarea name="About" id="" cols="30" rows="10" placeholder="Elaborate the reason"></textarea>
+         <br> <br> 
+         <input type="submit" value="Submit">
+     </form>
+
+  </body>
+</html>
